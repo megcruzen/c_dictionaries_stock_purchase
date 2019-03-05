@@ -1,0 +1,11 @@
+/Users/megan/Desktop/NSS/workspace/backend/stock_purchase_dictionaries/bin/Debug/netcoreapp2.2/stock_purchase_dictionaries.deps.json
+/Users/megan/Desktop/NSS/workspace/backend/stock_purchase_dictionaries/bin/Debug/netcoreapp2.2/stock_purchase_dictionaries.runtimeconfig.json
+/Users/megan/Desktop/NSS/workspace/backend/stock_purchase_dictionaries/bin/Debug/netcoreapp2.2/stock_purchase_dictionaries.runtimeconfig.dev.json
+/Users/megan/Desktop/NSS/workspace/backend/stock_purchase_dictionaries/bin/Debug/netcoreapp2.2/stock_purchase_dictionaries.dll
+/Users/megan/Desktop/NSS/workspace/backend/stock_purchase_dictionaries/bin/Debug/netcoreapp2.2/stock_purchase_dictionaries.pdb
+/Users/megan/Desktop/NSS/workspace/backend/stock_purchase_dictionaries/obj/Debug/netcoreapp2.2/stock_purchase_dictionaries.csprojAssemblyReference.cache
+/Users/megan/Desktop/NSS/workspace/backend/stock_purchase_dictionaries/obj/Debug/netcoreapp2.2/stock_purchase_dictionaries.csproj.CoreCompileInputs.cache
+/Users/megan/Desktop/NSS/workspace/backend/stock_purchase_dictionaries/obj/Debug/netcoreapp2.2/stock_purchase_dictionaries.AssemblyInfoInputs.cache
+/Users/megan/Desktop/NSS/workspace/backend/stock_purchase_dictionaries/obj/Debug/netcoreapp2.2/stock_purchase_dictionaries.AssemblyInfo.cs
+/Users/megan/Desktop/NSS/workspace/backend/stock_purchase_dictionaries/obj/Debug/netcoreapp2.2/stock_purchase_dictionaries.dll
+/Users/megan/Desktop/NSS/workspace/backend/stock_purchase_dictionaries/obj/Debug/netcoreapp2.2/stock_purchase_dictionaries.pdb
