@@ -5,7 +5,7 @@ namespace stock_purchase_dictionaries
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
 
             // A stock has a ticker symbol and a company name. Create a simple dictionary with ticker symbols and company names in the Main method.
@@ -56,18 +56,33 @@ namespace stock_purchase_dictionaries
             // Iterate over the purchases and record the valuation for each stock.
 
             foreach (Dictionary<string, double> purchase in purchases) {
+                foreach (KeyValuePair<string, double> kvp in purchase)
                 {
-                    foreach (KeyValuePair<string, double> stock in purchase)
-                    {
-                        // Does the full company name key already exist in the `stockReport`?
+                    // Console.WriteLine($"Stock: {kvp}");
+                    // Console.WriteLine("------");
 
-                        if (stockReport.ContainsKey(stocks[stock.Key])) {
-                            stockReport[stocks[stock.Key]] += stock.Value;
-                        }
-                        else {
-                            stockReport[stocks[stock.Key]] = stock.Value;
-                        }
+                    // Does the full company name key already exist in the `stockReport`?
+
+                    // Method #1
+                    if (stockReport.ContainsKey(stocks[kvp.Key])) {
+                        stockReport[stocks[kvp.Key]] += kvp.Value;
                     }
+                    else {
+                        stockReport[stocks[kvp.Key]] = kvp.Value;
+                    }
+
+                    // Method #2
+                    // if (! stockReport.ContainsKey(kvp.Key)) {
+                    //     stockReport.Add(kvp.Key, kvp.Value);
+                    // }
+                    // else {
+                    //     // Method #1
+                    //     // stockReport[stock.Key] += stock.Value;
+
+                    //     // Method #2
+                    //     double currentCost = stockReport[kvp.Key];
+                    //     stockReport[kvp.Key] = currentCost + kvp.Value;
+                    // }
                 }
             }
 
